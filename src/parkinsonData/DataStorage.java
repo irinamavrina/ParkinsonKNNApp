@@ -29,7 +29,7 @@ public class DataStorage {
      */
     public static void StoreResult(String line){
        PrintWriter output = null; 
-       String fileName = "./data/resultData.csv";
+       String fileName = "D:/res/q.txt";
         try{
             output = new PrintWriter(new BufferedWriter(new FileWriter(fileName, true)));
             
